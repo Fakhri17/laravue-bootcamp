@@ -24,3 +24,9 @@ Route::get('/', function () {
     //     die("Could not connect to the database. Please check your configuration. error:" . $e );
     // }
 });
+
+Route::get('/page/abouts/{id}', function () {
+   echo " hahaha";
+});
+
+Route::get('test1', 'TestController@test1');
